@@ -1,0 +1,110 @@
+*{
+    margin: 0; padding: 0;
+}
+#nav-div {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    font-family: "Stardos Stencil", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#hero-sec{
+    background-color: #F5F5F7;
+    height:619+27px;
+    width:1267px;
+    margin-bottom: 56px;
+}
+.stardos-stencil-regular {
+  font-family: "Stardos Stencil", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.stardos-stencil-bold {
+  font-family: "Stardos Stencil", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+#h1{
+    font-family: "Stardos Stencil", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    position: relative;
+    top: 56px;
+    
+}
+#h2{
+    font-family: "-apple-system", BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+body{
+    overflow-x:hidden;
+}
+#btn-learn-more {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    display: block;
+    cursor: pointer;
+    margin-top: 9px ;
+    background-color: #0071E3;
+    color: white;
+    padding: 6px 25px;
+    border-radius: 30px;
+    transition: background-color 0.2s ease;
+    border: #0071E3 2px;
+
+}
+#btn-buy-now{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    display: block;
+    cursor: pointer;
+    margin-top: 9px ;
+    color: #0071E3;
+    padding: 6px 25px;
+    border-radius: 30px;
+    margin-left: 3px;
+    border : #0071E3 solid 1px;
+    transition: background-color 0.2s ease;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#btn-learn-more:hover{
+    background-color: #0077ED;
+}
+#btn-learn-more:active{
+    background-color: #036cd4;
+}
+#btn-buy-now:hover{
+    background-color: #0077ED;
+    color: white;
+}
+#btn-buy-now:active{
+    background-color: #036cd4;;
+    color: white;
+}
+#hero-img{
+    display: block;
+    height: 400px;
+    margin: 30px auto 0;
+    width: 700px;
+}
